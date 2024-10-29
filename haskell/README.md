@@ -3,10 +3,14 @@ La implementación en Haskell utiliza listas de diferencia para un mejor rendimi
 
 ## Ejecución
 Para ejecutar los programas, una vez compilados, basta con escribir el nombre del ejecutable y pasar como primer parámetro la cantidad de números que se van a ordenar.
-    # Para cien datos
-    ./quicksort 100
-    ./quicksortRandom 100
+```
+# Para cien datos
+./quicksort 100
+./quicksortRandom 100
+```
 
 ## Pruebas
 Las pruebas estan escritas en un bash script y guardan los datos bajo una carpeta llamada `datos`, en archivos separados para cada tamaño del arreglo y la variante del algoritmo utilizada. Para ejecutarlas se puede escribir:
-    bash ./pruebas.sh
+```
+bash ./pruebas.sh
+```
